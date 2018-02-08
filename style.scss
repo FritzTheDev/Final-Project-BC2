@@ -3,6 +3,11 @@ h1 { opacity: 0;
   color: white;
   font-size: 6em;
 }
+h2 {
+  font-family: Raleway, sans-serif;
+  color: white;
+  font-size: 1em;
+}
 .navbar {
   position: fixed;
   top: 0;
@@ -10,6 +15,12 @@ h1 { opacity: 0;
   width: 100%;
   background-color: black;
   border: 0;
+}
+.navlinks{
+  color: white;
+}
+.nudge-up {
+  margin-top: -12%;
 }
 .herosvg {
   margin-top: -30px;
@@ -23,6 +34,9 @@ h1 { opacity: 0;
 .ib {
   display: inline-block;
 }
+.alnctr {
+  text-align: center;
+}
 @keyframes fade-in {
   to {opacity: 1;
   }
@@ -33,20 +47,20 @@ h1 { opacity: 0;
 }
 .grow-first {
   animation-name: grow-in;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
 }
 .grow-second {
   animation-name: grow-in;
-  animation-duration: 2s;
-  animation-delay: 2s;
+  animation-duration: 1s;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
   height: 0px;
 }
 .fade-last {
   animation-name: fade-in;
   animation-duration: 1s;
-  animation-delay: 4s;
+  animation-delay: 2s;
   animation-fill-mode: forwards;
 }
 .overlay::after {
