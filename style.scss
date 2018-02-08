@@ -1,4 +1,4 @@
-h1 {
+h1 { opacity: 0;
   font-family: Raleway, sans-serif;
   color: white;
   font-size: 6em;
@@ -29,21 +29,25 @@ h1 {
 }
 @keyframes grow-in {
   from {height: 0%;}
-  to {height: 95%;}
+  to {height: 100%;}
 }
 .grow-first {
   animation-name: grow-in;
   animation-duration: 2s;
+  animation-fill-mode: forwards;
 }
 .grow-second {
   animation-name: grow-in;
   animation-duration: 2s;
   animation-delay: 2s;
+  animation-fill-mode: forwards;
+  height: 0px;
 }
 .fade-last {
   animation-name: fade-in;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-delay: 4s;
+  animation-fill-mode: forwards;
 }
 .overlay::after {
   content: "";
