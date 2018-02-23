@@ -16,9 +16,6 @@ h2 {
   color: white;
   font-size: 1em; }
 
-h3 {
-  font-family: "open sans condensed"; }
-
 .navbar {
   position: fixed;
   top: 0;
@@ -29,7 +26,9 @@ h3 {
 
 .contacthdr {
   opacity: 100;
-  font-family: "open sans condensed"; }
+  font-family: "open sans condensed";
+  color: black;
+  text-align: center; }
 
 .navlink {
   color: white !important;
@@ -45,9 +44,7 @@ h3 {
   padding-top: .5em; }
 
 .featurette {
-  text-align: center;
-  background-color: #999;
-  border: .5em solid white; }
+  text-align: center; }
 
 .featurette.top {
   border-top: 1em solid white; }
